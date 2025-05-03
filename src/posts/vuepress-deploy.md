@@ -14,8 +14,8 @@ tags:
 如果没有在刚开始创建好，可以根据`vuepress`官方提供的文档模仿着来写。[部署到github pages](https://vuejs.press/zh/guide/deployment.html)
 
 ### 2. 配置`.vuepress/config.ts`
-1. 如果你准备发布到 https://<USERNAME>.github.io/ ，你可以省略这一步，因为 base 默认就是 "/"
-2. 如果你准备发布到 https://<USERNAME>.github.io/<REPO>/ ，也就是说你的仓库地址是 https://github.com/<USERNAME>/<REPO> ，则将 base 设置为 "/<REPO>/"
+1. 如果你准备发布到 https://*USERNAME*.github.io/ ，你可以省略这一步，因为 base 默认就是 "/"
+2. 如果你准备发布到 https://*USERNAME*.github.io/*REPO*/ ，也就是说你的仓库地址是 https://github.com/*USERNAME*/*REPO* ，则将 base 设置为 "/*REPO*/"
 
 ### 3. git操作进行：
 1. 初始化（optional），这一步在模板构建时也会帮忙完成，若没有选择，需要自己进行初始化；
