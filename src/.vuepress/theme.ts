@@ -4,16 +4,17 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://crab-zihanli.github.io/blog/",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Zihan Li",
+    email:"lzh_pku2002@163.com"
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/crab.svg",
+  favicon: "/crab.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/crab-zihanli/blog",
 
   docsDir: "src",
 
@@ -22,47 +23,23 @@ export default hopeTheme({
 
   // 侧边栏
   sidebar,
+  // 关闭更新时间功能，避免 dev 时报错
+  lastUpdated: false,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "This site is served by GitHub Pages",
   displayFooter: true,
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "A crab who loves to code",
     intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
+      Douban: "https://www.douban.com/",
+      BiliBili: "https://www.bilibili.com/",
+      Email: "https://mail.163.com/",
       GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
+      "163Music": "https://music.163.com/",
       VuePressThemeHope: {
         icon: "https://theme-hope-assets.vuejs.press/logo.svg",
         link: "https://theme-hope.vuejs.press",
@@ -70,15 +47,15 @@ export default hopeTheme({
     },
   },
 
-  // 加密配置
-  encrypt: {
+  // 加密配置，之后再配置这部分
+  /* encrypt: {
     config: {
       "/demo/encrypt.html": {
         hint: "Password: 1234",
         password: "1234",
       },
     },
-  },
+  }, */
 
   // 多语言配置
   metaLocales: {
@@ -90,19 +67,18 @@ export default hopeTheme({
 
   // 此处开启了很多功能用于演示，你应仅保留用到的功能。
   markdown: {
-    align: true,
-    attrs: true,
-    codeTabs: true,
-    component: true,
-    demo: true,
-    figure: true,
-    gfm: true,
-    imgLazyload: true,
-    imgSize: true,
-    include: true,
-    mark: true,
-    plantuml: true,
-    spoiler: true,
+    align: true,//控制markdown对齐
+    attrs: true,//为markdown元素添加属性
+    codeTabs: true,//代码选项卡
+    component: true,//启用组件支持
+    demo: true,//支持代码演示
+    figure: true,//启用figure
+    gfm: true,//GitHub Flavored Markdown Spec
+    imgLazyload: true,//图片懒加载
+    imgMark: true,//启用图片标记
+    imgSize: true,//启用图片大小
+    mark: true,//高亮=====
+    spoiler: true,//剧透文字！！！！
     stylize: [
       {
         matcher: "Recommended",
@@ -115,12 +91,15 @@ export default hopeTheme({
             };
         },
       },
-    ],
-    sub: true,
+    ],//对内联标记进行样式化
+    sub: true,//上下标
     sup: true,
     tabs: true,
     tasklist: true,
-    vPre: true,
+    vPre: true,//使用任何 Mustache 语法
+
+    //在启用之前安装 echarts
+    echarts: true,
 
     // 取消注释它们如果你需要 TeX 支持
     // math: {
@@ -140,8 +119,7 @@ export default hopeTheme({
 
     // insert component easily
 
-    // 在启用之前安装 echarts
-    // echarts: true,
+
 
     // 在启用之前安装 flowchart.ts
     // flowchart: true,
@@ -163,6 +141,7 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
+    slimsearch:true,
 
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
