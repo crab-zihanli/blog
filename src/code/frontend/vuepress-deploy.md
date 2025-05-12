@@ -1,11 +1,14 @@
 ---
-title: 方便的自动部署工作流！从模板直接创建，代码详细解读
+title: 方便的自动部署工作流！从模板直接创建
+shortTitle: vuepress部署
 icon: code
 category:
  - coding
+ - frontend
 tags:
  - git
  - workflow
+star: true
 ---
 ## Vuepress自动部署步骤
 ### 1. 生成工作流

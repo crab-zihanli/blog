@@ -1,5 +1,6 @@
 ---
 icon: circle-info
+title: About
 cover: /assets/images/cover3.jpg
 ---
 

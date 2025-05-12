@@ -4,23 +4,19 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "如何使用",
+      text: "Coding",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      link: "code/",
+      prefix: "code/",
       children: "structure",
     },
     {
-      text: "文章",
-      icon: "book",
+      text: "Essay",
+      icon: "pen-to-square",
+      link: "posts/",
       prefix: "posts/",
       children: "structure",
     },
     "intro",
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
-    },
   ],
 });

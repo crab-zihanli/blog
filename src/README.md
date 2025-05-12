@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: house
-title: 主页
+title: Home
 bgImage: /qian.jpeg
 heroText: Zihan Li'Personal Blog
 tagline: The best time to plant a tree is ten years ago. The second-best time is now.
