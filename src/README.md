@@ -3,11 +3,10 @@ home: true
 layout: BlogHome
 icon: house
 title: 主页
-heroImage: /crab.svg
-bgImage: /screen.webp
+bgImage: /qian.jpeg
 heroText: Zihan Li'Personal Blog
+tagline: The best time to plant a tree is ten years ago. The second-best time is now.
 heroFullScreen: false
-tagline: All Things Grow, Each Noble.
 projects:
   - icon: folder-open
     name: 项目名称

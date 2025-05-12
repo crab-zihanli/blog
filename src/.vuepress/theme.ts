@@ -32,6 +32,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
+    avatar: "/avatar.jpeg",
     description: "To be a full stack developer",
     intro: "/intro.html",
     medias: {

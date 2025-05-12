@@ -7,7 +7,7 @@ export default defineUserConfig({
   base: process.env.NODE_ENV === 'production' ? '/blog/' : '/',
 
   lang: "zh-CN",
-  title: "博客演示",
+  title: "Zihan Li",
   description: "vuepress-theme-hope 的博客演示",
 
   theme,
