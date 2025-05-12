@@ -32,7 +32,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "A crab who loves to code",
+    description: "To be a full stack developer",
     intro: "/intro.html",
     medias: {
       Douban: "https://www.douban.com/",
