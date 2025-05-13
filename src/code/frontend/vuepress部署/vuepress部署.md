@@ -1,5 +1,5 @@
 ---
-title: 方便的自动部署工作流！从模板直接创建
+title: vuepress方便的自动部署工作流！
 shortTitle: vuepress部署
 icon: code
 category:
