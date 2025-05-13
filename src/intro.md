@@ -1,7 +1,7 @@
 ---
 icon: circle-info
 title: About
-banner: /assets/images/cover3.jpg
+cover: /assets/images/cover3.jpg
 article: false
 ---
 
