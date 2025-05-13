@@ -8,25 +8,25 @@ heroText: Zihan Li'Personal Blog
 tagline: The best time to plant a tree is ten years ago. The second-best time is now.
 heroFullScreen: false
 projects:
-  - icon: folder-open
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+  - icon: code
+    name: 写点代码
+    desc: 期望对你有所帮助
+    link: /code/
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: 闲来读书
+    desc: 读万卷书，行万里路
+    link: /posts/read/
 
   - icon: newspaper
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+    name: 常用资源
+    desc: 常用文档和链接
+    link: /resource
 
   - icon: user-group
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+    name: 简历
+    desc: 在线查看我的简历
+    link: /resume
 
 footer: 基于Vuepress开发的个人博客
 ---
