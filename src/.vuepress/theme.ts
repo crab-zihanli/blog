@@ -80,6 +80,7 @@ export default hopeTheme({
     imgSize: true,//启用图片大小
     mark: true,//高亮=====
     spoiler: true,//剧透文字！！！！
+    
     stylize: [
       {
         matcher: "Recommended",
@@ -141,7 +142,11 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    blog: true,
+    blog: {
+      excerptLength: 100,
+    },
+
+
     slimsearch:true,
 
     // 启用之前需安装 @waline/client
@@ -216,4 +221,7 @@ export default hopeTheme({
     //   },
     // },
   },
+},{
+  // 主题配置
+  custom: true,//自定义组件
 });

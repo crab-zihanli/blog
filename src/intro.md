@@ -1,7 +1,8 @@
 ---
 icon: circle-info
 title: About
-cover: /assets/images/cover3.jpg
+banner: /assets/images/cover3.jpg
+article: false
 ---
 
 # 介绍页
