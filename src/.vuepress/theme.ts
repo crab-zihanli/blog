@@ -99,7 +99,10 @@ export default hopeTheme({
     tabs: true,
     tasklist: true,
     vPre: true,//使用任何 Mustache 语法
-
+    highlighter: {
+      type: "shiki",
+      collapsedLines: true,//折叠行
+    },//代码高亮
     //在启用之前安装 echarts
     echarts: true,
 
