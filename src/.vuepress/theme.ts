@@ -49,14 +49,14 @@ export default hopeTheme({
   },
 
   // 加密配置，之后再配置这部分
-  /* encrypt: {
+  encrypt: {
     config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
+      "/resume.html": {
+        hint: "Password",
+        password: "check2025",
       },
     },
-  }, */
+  },
 
   // 多语言配置
   metaLocales: {
