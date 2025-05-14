@@ -1,7 +1,8 @@
 import { defineUserConfig } from "vuepress";
+import { getDirname, path } from "vuepress/utils";
 
 import theme from "./theme.js";
-
+const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   // 动态设置 base
@@ -12,7 +13,9 @@ export default defineUserConfig({
   description: "vuepress-theme-hope 的博客演示",
 
   theme,
-  
+  alias: {
+    "@HobbyCarousel": path.resolve(__dirname, "components/HobbyCarousel.vue"),
+  },
   
 
   // 和 PWA 一起启用
