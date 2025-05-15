@@ -45,9 +45,3 @@ article: false
   import HobbyCarousel from "@HobbyCarousel";
 </script>
 
-<style>
-  img{
-    width: 30rem;
-    height: 30rem;
-  }
-</style>
