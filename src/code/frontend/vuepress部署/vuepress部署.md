@@ -5,6 +5,7 @@ icon: code
 category:
  - coding
  - frontend
+ - vuepress
 tags:
  - git
  - workflow

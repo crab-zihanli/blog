@@ -4,6 +4,7 @@ icon: photo-film
 category:
  - coding
  - frontend
+ - css
 tags:
  - sass
 isOriginal: true
