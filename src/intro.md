@@ -1,6 +1,6 @@
 ---
 icon: circle-info
-title: About Me
+title: 关于我
 article: false
 ---
 

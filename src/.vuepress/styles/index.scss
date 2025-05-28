@@ -3,3 +3,12 @@
 .vp-article-cover{
   display: none;
 }
+// VPCard样式
+.vp-card-container .vp-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加平滑过渡效果 */
+}
+
+.vp-card-container .vp-card:hover {
+  transform: scale(1.02); /* 鼠标悬停时放大 */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* 阴影加深 */
+}

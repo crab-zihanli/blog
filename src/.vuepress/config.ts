@@ -16,6 +16,7 @@ export default defineUserConfig({
   alias: {
     "@HobbyCarousel": path.resolve(__dirname, "components/HobbyCarousel.vue"),
   },
+
   
 
   // 和 PWA 一起启用
