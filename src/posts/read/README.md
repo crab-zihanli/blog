@@ -5,6 +5,7 @@ index: false
 article: false
 category:
   - read
+star: true
 ---
 
 <Catalog />

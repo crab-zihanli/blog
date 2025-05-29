@@ -6,6 +6,7 @@ article: false
 category:
   - code
   - frontend
+star: true
 ---
 
 <Catalog />

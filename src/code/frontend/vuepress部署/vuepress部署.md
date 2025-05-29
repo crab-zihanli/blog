@@ -9,7 +9,7 @@ category:
 tags:
  - git
  - workflow
-star: true
+
 ---
 ## Vuepress自动部署步骤
 ### 1. 生成工作流
@@ -35,8 +35,9 @@ star: true
 
 ::: caution 官网没说的github权限设置
 
-同样是设置的左侧的general
+同样是设置的左侧的Actions中的`general`，找到下面这一项关于工作流的许可设置，改为允许读写并保存。
 
 :::
+![alt text](../../../.vuepress/public/assets/images/vuepress部署/image.png)
 
 
