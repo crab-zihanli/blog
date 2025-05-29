@@ -19,6 +19,7 @@
     "vuepress-theme-hope": "2.0.0-rc.85"
   },
   "dependencies": {
-    "echarts": "^5.6.0"
+    "echarts": "^5.6.0",
+    "zihanli": "link:"
   }
 }
