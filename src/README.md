@@ -28,7 +28,7 @@ projects:
     desc: 查看我的工作简历
     link: /resume
 
-footer: 基于Vuepress开发的个人博客
+footer: 基于Vuepress开发的个人博客；test
 ---
 
 
